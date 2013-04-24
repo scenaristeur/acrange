@@ -24,16 +24,19 @@ public class HelloServlet extends HttpServlet {
         AgentA a = new AgentA();
         AgentB b = new AgentB();
 		Kernel k = Kernels.get();
-		k.launchLightAgent(a,"Antonio");
+		k.launchLightAgent(a,"Albert");
 		k.launchLightAgent(b,"Bernardo");
 		Address addressA = a.getAddress();
 		String addresseA = addressA.toString();
-		Address addressB = a.getAddress();
+		
+		Address addressB = b.getAddress();
 		String addresseB = addressB.toString();
+		
         
         out.write("Developpement agents avec Janus-project".getBytes());
         out.write(addresseA.getBytes());
         out.write(addresseB.getBytes());
+        
         out.flush();
         out.close();
         
