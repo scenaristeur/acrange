@@ -23,7 +23,7 @@ public class HelloServlet extends HttpServlet {
         
         HelloAgent a = new HelloAgent();
 		Kernel k = Kernels.get();
-		k.launchLightAgent(a,"Bernard");
+		k.launchLightAgent(a,"Bernardo");
 		Address address = a.getAddress();
 		String addresse = address.toString();
         
