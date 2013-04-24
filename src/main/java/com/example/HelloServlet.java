@@ -27,7 +27,7 @@ public class HelloServlet extends HttpServlet {
 		Address address = a.getAddress();
 		String addresse = address.toString();
         
-        out.write("Developpement d'agents avec Janus-project".getBytes());
+        out.write("Developpement agents avec Janus-project".getBytes());
         out.write(addresse.getBytes());
         out.flush();
         out.close();
