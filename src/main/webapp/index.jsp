@@ -105,7 +105,7 @@
 <div class="container" id="getting-started">
 <div class="row">
 <div class="span8 offset2">
-<h1 class="alert alert-success">Your app is ready!</h1>
+<h1 class="alert alert-success">Application de developpement</h1>
 
 <div class="page-header">
   <h1>Get started with Embedded Jetty</h1>
