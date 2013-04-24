@@ -21,14 +21,19 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         ServletOutputStream out = resp.getOutputStream();
         
-        HelloAgent a = new HelloAgent();
+        AgentA a = new AgentA();
+        AgentB b = new AgentB();
 		Kernel k = Kernels.get();
-		k.launchLightAgent(a,"Bernardo");
-		Address address = a.getAddress();
-		String addresse = address.toString();
+		k.launchLightAgent(a,"Antonio");
+		k.launchLightAgent(b,"Bernardo");
+		Address addressA = a.getAddress();
+		String addresseA = addressA.toString();
+		Address addressB = a.getAddress();
+		String addresseB = addressB.toString();
         
         out.write("Developpement agents avec Janus-project".getBytes());
-        out.write(addresse.getBytes());
+        out.write(addresseA.getBytes());
+        out.write(addresseB.getBytes());
         out.flush();
         out.close();
         
