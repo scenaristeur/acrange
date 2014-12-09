@@ -1,6 +1,8 @@
-# Embedded Jetty template application 
+# Système multi-agent en ligne
 
-This is a template for a web application that uses embedded Jetty. The sample code consists of a JSP (this page) and a simple servlet.
+j'avais testé ce code sur HEROKU.com pour créer un système multi-agent en ligne avec jetty, mais les dépendances Maven semblenet maintenant poser problème ... GRRRR si quelqu'un a une idée :-)
+
+
 
 ## Running the application locally
 
