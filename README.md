@@ -1,8 +1,8 @@
 # Système multi-agent en ligne
 
-j'avais testé ce code sur HEROKU.com pour créer un système multi-agent en ligne avec jetty, mais les dépendances Maven semblenet maintenant poser problème ... GRRRR si quelqu'un a une idée :-)
+j'avais testé ce code sur HEROKU.com pour créer un système multi-agent (janus-project) en ligne avec jetty, mais les dépendances Maven semblent maintenant poser problème ... GRRRR si quelqu'un a une idée :-)
 
-
+ça donnait ça : https://acrange.herokuapp.com/hello
 
 ## Running the application locally
 
