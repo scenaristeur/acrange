@@ -1,18 +1,16 @@
 package com.example;
 
-import java.io.IOException;
-import java.util.logging.Logger;
+import io.janusproject.Boot;
+import io.janusproject.kernel.Kernel;
 
-import javax.servlet.ServletConfig;
+import java.io.IOException;
+import java.util.UUID;
+
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.janusproject.kernel.Kernel;
-import org.janusproject.kernel.address.Address;
-import org.janusproject.kernel.agent.Kernels;
 
 public class HelloServlet extends HttpServlet {
 
@@ -21,21 +19,36 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         ServletOutputStream out = resp.getOutputStream();
         
-        AgentA a = new AgentA();
-        AgentB b = new AgentB();
-		Kernel k = Kernels.get();
-		k.launchLightAgent(a,"Albert");
-		k.launchLightAgent(b,"Bernardo");
-		Address addressA = a.getAddress();
-		String addresseA = addressA.toString();
-		
-		Address addressB = b.getAddress();
-		String addresseB = addressB.toString();
-		
+        Kernel kernel;
         
-        out.write("Developpement agents avec Janus-project".getBytes());
-        out.write(addresseA.getBytes());
-        out.write(addresseB.getBytes());
+        try {
+            // For booting Janus:
+            // a) Use Boot.startJanus for a programmatic launching with
+            //    the default configuration.
+            // b) Use Boot.main for controlling the launching parameters.
+            //    (issue janus-project/janusproject#90 will provide a
+            //    better mechanism).
+			kernel = Boot.startJanus(
+					null, // Use the default module
+					AgentA.class, // Type of the agent
+					"Albert"); // Parameter for Initialize event
+		} catch (Exception e) {
+			throw new ServletException(e);
+		}
+        
+        // We cannot get the identifier of the first agent yet;
+        // see janus-project/janusproject#94
+        String idA = "unknown";
+        
+        // The other agents are launch pragrammatically
+        String idB = kernel.spawn(
+        		AgentB.class, // Type of the agent
+        		"Bernardo") // Parameter for Initialize event
+        		.toString();
+        out.write("Developpement agents avec Janus-project<br/>idA=".getBytes());
+        out.write(idA.getBytes());
+        out.write("<br/>idB=".getBytes());
+        out.write(idB.getBytes());
         
         out.flush();
         out.close();

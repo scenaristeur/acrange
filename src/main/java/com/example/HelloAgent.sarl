@@ -1,0 +1,13 @@
+package com.example
+
+import io.sarl.core.Initialize
+import io.sarl.core.Logging
+
+agent HelloAgent {
+	uses Logging
+
+	on Initialize {
+		println("bonjour Agent!")
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.example.events
+
+event HelloEvent {
+	
+	val message : String
+	
+	new (msg : String) {
+		this.message = msg
+	}
+	
+}

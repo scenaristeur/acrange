@@ -1,5 +1,34 @@
-.classpath
+# NetBean / Eclipse
+bin
+*.java._trace
+*.java_trace
+*.smap
 .project
+.classpath
 .settings
-.springBeans
+.metadata
+*.launch
+
+# Subversion and CVS
+.svn
+.cvs
+
+# Maven
 target
+generated-sources
+
+# Compiled files
+*.class
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+
+# Temp files
+*.bak
+*~
+
+#Others
+.DS_Store
