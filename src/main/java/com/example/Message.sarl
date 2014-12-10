@@ -1,6 +1,6 @@
-package com.example.events
+package com.example
 
-event HelloEvent {
+event Message {
 	
 	val message : String
 	

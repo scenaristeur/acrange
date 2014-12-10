@@ -1,30 +1,32 @@
 package com.example
 
-import com.example.states.AgentAState
 import io.sarl.core.DefaultContextInteractions
 import io.sarl.core.Initialize
-import io.sarl.core.Logging
-import com.example.events.HelloEvent
-import com.example.events.Message
 import io.sarl.core.Lifecycle
+import io.sarl.core.Logging
+import io.sarl.core.Schedules
 
 agent AgentA {
-	uses Logging, DefaultContextInteractions, Lifecycle
+	uses Logging, DefaultContextInteractions, Lifecycle, Schedules
 	
 	var state = AgentAState::PRESENTATION
 
 	on Initialize {
-		println("Je suis " + occurrence.parameters.get(0))
-		println("Je me présente")
-		emit(new HelloEvent("hello"))
-		println("j'envoie un message hello")
-		this.state = AgentAState::WAIT_FOR_WELCOME
-		println("j'attend en retour un message de bienvenue")
+		loggingName = occurrence.parameters.get(0).toString
+		every(5000) [
+			if (state != AgentAState::HAVE_PARTNER) {
+				println("j'envoie un message hello")
+				emit(new Message("hello"))
+				this.state = AgentAState::WAIT_FOR_WELCOME
+				println("j'attend en retour un message de bienvenue")
+			}
+		]
 	}
 
-	on Message [this.state === AgentAState::WAIT_FOR_WELCOME] {
+	on Message [this.state == AgentAState::WAIT_FOR_WELCOME] {
 		println("Oh! j'ai des messages!");
-		if (occurrence == "welcome" ) {
+		if (occurrence.message == "welcome" ) {
+			this.state = AgentAState::HAVE_PARTNER
 			// Someone welcome me
 			var a = occurrence.source
 			println("Oh! j'ai un message qui dit '"

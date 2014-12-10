@@ -15,44 +15,39 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloServlet extends HttpServlet {
 
 	@Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
-        ServletOutputStream out = resp.getOutputStream();
-        
-        Kernel kernel;
-        
-        try {
-            // For booting Janus:
-            // a) Use Boot.startJanus for a programmatic launching with
-            //    the default configuration.
-            // b) Use Boot.main for controlling the launching parameters.
-            //    (issue janus-project/janusproject#90 will provide a
-            //    better mechanism).
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		String idA, idB;
+		try {
+			Kernel kernel;
+
+			Boot.setOffline(true);
+			
 			kernel = Boot.startJanus(
 					null, // Use the default module
 					AgentA.class, // Type of the agent
 					"Albert"); // Parameter for Initialize event
+
+			// We cannot get the identifier of the first agent yet;
+			// see janus-project/janusproject#94
+			idA = Boot.getBootAgentIdentifier().toString();
+
+			// The other agents are launch pragrammatically
+			UUID id = kernel.spawn(
+					AgentB.class, // Type of the agent
+					"Bernardo"); // Parameter for Initialize event
+			idB = id.toString();
 		} catch (Exception e) {
 			throw new ServletException(e);
 		}
-        
-        // We cannot get the identifier of the first agent yet;
-        // see janus-project/janusproject#94
-        String idA = "unknown";
-        
-        // The other agents are launch pragrammatically
-        String idB = kernel.spawn(
-        		AgentB.class, // Type of the agent
-        		"Bernardo") // Parameter for Initialize event
-        		.toString();
-        out.write("Developpement agents avec Janus-project<br/>idA=".getBytes());
-        out.write(idA.getBytes());
-        out.write("<br/>idB=".getBytes());
-        out.write(idB.getBytes());
-        
-        out.flush();
-        out.close();
-        
-    }
-    
+
+		ServletOutputStream out = resp.getOutputStream();
+		out.write("Developpement agents avec Janus-project<br/>identifier agent A: ".getBytes());
+		out.write(idA.getBytes());
+		out.write("<br/>identifier agent B: ".getBytes());
+		out.write(idB.getBytes());
+		out.flush();
+		out.close();
+	}
+
 }
