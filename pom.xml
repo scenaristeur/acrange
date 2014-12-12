@@ -34,16 +34,7 @@
         <dependency>
             <groupId>org.mortbay.jetty</groupId>
             <artifactId>jsp-2.1-glassfish</artifactId>
-<<<<<<< HEAD
-            <version>2.1.v20100127</version>
-        </dependency>
-        <dependency>
-        	<groupId>org.janus-project.kernel</groupId>
-        	<artifactId>kernel</artifactId>
-        	<version>1.0</version>
-=======
             <version>9.1.02.B04.p0</version>
->>>>>>> a5398a701d46052265fd5957ac2ba9fd5536a239
         </dependency>
 
         <!-- Janus / SARL -->
