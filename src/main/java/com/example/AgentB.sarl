@@ -1,0 +1,28 @@
+package com.example
+
+import io.sarl.core.DefaultContextInteractions
+import io.sarl.core.Initialize
+import io.sarl.core.Lifecycle
+import io.sarl.core.Logging
+import io.sarl.util.Scopes
+
+agent AgentB {
+	uses Logging, DefaultContextInteractions, Lifecycle
+
+	on Initialize {
+		loggingName = occurrence.parameters.get(0).toString
+		println("J'attend un partenaire")
+	}
+
+	on Message {
+		println("Tiens ! j'ai du courrier!")
+		if (occurrence.message == "hello") {
+			var a = occurrence.source
+			println("J'ai reçu un message qui dit 'hello' en provenance de "
+				+ a)
+			println( "Je lui répond 'welcome'" ) ;
+			emit (new Message("welcome"), Scopes::addresses(a))
+			killMe
+		}
+	}
+}
