@@ -1,0 +1,137 @@
+Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-11T22:58:10+02:00)
+Maven home: C:\Users\David\dev\eclipse-sarl.win32.win32.x86_64\apache-maven-3.2.3\bin\..
+Java version: 1.8.0_20, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_20\jre
+Default locale: fr_FR, platform encoding: Cp1252
+OS name: "windows 8.1", version: "6.3", arch: "amd64", family: "dos"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\Users\David\dev\eclipse-sarl.win32.win32.x86_64\apache-maven-3.2.3\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\David\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\David\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\David\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Could not find metadata io.sarl.maven:sarl-maven-plugin:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl.maven:sarl-maven-plugin:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl.maven:sarl-maven-plugin:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl.maven:sarl-maven-plugin:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl.maven:io.sarl.maven:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl.maven:io.sarl.maven:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl:io.sarl:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl:io.sarl:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl.lang:io.sarl.lang:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl.lang:io.sarl.lang:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl.lang:io.sarl.lang:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl.lang:io.sarl.lang:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl:io.sarl.plugins:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl:io.sarl.plugins:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl:io.sarl.tycho-parent:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl:io.sarl.tycho-parent:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl.lang:io.sarl.lang.core:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl.lang:io.sarl.lang.core:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata io.sarl.lang:io.sarl.lang.core:0.2.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Skipped remote update check for io.sarl.lang:io.sarl.lang.core:0.2.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.builder.standalone/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.builder.standalone/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.xtext:org.eclipse.xtext.builder.standalone/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.xtext:org.eclipse.xtext.builder.standalone/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.xtext:org.eclipse.xtext.builder.standalone/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xtext/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.xtext/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.xtext:org.eclipse.xtext.xtext/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.xtext:org.eclipse.xtext.xtext/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.xtext:org.eclipse.xtext.xtext/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.emf:org.eclipse.emf.ecore.xmi/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.emf:org.eclipse.emf.ecore.xmi/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0.v20130911-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140117-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml in local (C:\Users\David\.m2\repository)
+[DEBUG] Failure to find org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml in http://maven.sarl.io/ was cached in the local repository, resolution will not be reattempted until the update interval of io.sarl.maven has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.10.0-v20140514-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=14, ConflictMarker.markTime=7, ConflictMarker.nodeCount=244, ConflictIdSorter.graphTime=7, ConflictIdSorter.topsortTime=3, ConflictIdSorter.conflictIdCount=65, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=100, ConflictResolver.conflictItemCount=112, DefaultDependencyCollector.collectTime=7332, DefaultDependencyCollector.transformTime=137}
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[ERROR] The build could not read 1 project -> [Help 1]
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] Unresolveable build extension: Plugin io.sarl.maven:sarl-maven-plugin:0.2.0-SNAPSHOT or one of its dependencies could not be resolved: Failed to collect dependencies at io.sarl.maven:sarl-maven-plugin:jar:0.2.0-SNAPSHOT -> org.eclipse.xtext:xtext-maven-plugin:jar:2.7.3 -> org.eclipse.xtext:org.eclipse.xtext.builder.standalone:jar:[2.7.3] @ 
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:416)
+	at org.apache.maven.DefaultMaven.collectProjects(DefaultMaven.java:663)
+	at org.apache.maven.DefaultMaven.getProjectsForMavenReactor(DefaultMaven.java:654)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:243)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:582)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:214)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[ERROR]   
+[ERROR]   The project com.example:helloworld:1.0-SNAPSHOT (c:\Users\David\dev\heroku\acrange\pom.xml) has 1 error
+[ERROR]     Unresolveable build extension: Plugin io.sarl.maven:sarl-maven-plugin:0.2.0-SNAPSHOT or one of its dependencies could not be resolved: Failed to collect dependencies at io.sarl.maven:sarl-maven-plugin:jar:0.2.0-SNAPSHOT -> org.eclipse.xtext:xtext-maven-plugin:jar:2.7.3 -> org.eclipse.xtext:org.eclipse.xtext.builder.standalone:jar:[2.7.3]: No versions available for org.eclipse.xtext:org.eclipse.xtext.builder.standalone:jar:[2.7.3] within specified range -> [Help 2]
+org.apache.maven.plugin.PluginResolutionException: Plugin io.sarl.maven:sarl-maven-plugin:0.2.0-SNAPSHOT or one of its dependencies could not be resolved: Failed to collect dependencies at io.sarl.maven:sarl-maven-plugin:jar:0.2.0-SNAPSHOT -> org.eclipse.xtext:xtext-maven-plugin:jar:2.7.3 -> org.eclipse.xtext:org.eclipse.xtext.builder.standalone:jar:[2.7.3]
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:204)
+	at org.apache.maven.project.DefaultProjectBuildingHelper.resolveExtensionArtifacts(DefaultProjectBuildingHelper.java:384)
+	at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm(DefaultProjectBuildingHelper.java:239)
+	at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled(DefaultModelBuildingListener.java:110)
+	at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire(ModelBuildingEventCatapult.java:43)
+	at org.apache.maven.model.building.DefaultModelBuilder.fireEvent(DefaultModelBuilder.java:1174)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:415)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:398)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:614)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:405)
+	at org.apache.maven.DefaultMaven.collectProjects(DefaultMaven.java:663)
+	at org.apache.maven.DefaultMaven.getProjectsForMavenReactor(DefaultMaven.java:654)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:243)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:582)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:214)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.eclipse.aether.collection.DependencyCollectionException: Failed to collect dependencies at io.sarl.maven:sarl-maven-plugin:jar:0.2.0-SNAPSHOT -> org.eclipse.xtext:xtext-maven-plugin:jar:2.7.3 -> org.eclipse.xtext:org.eclipse.xtext.builder.standalone:jar:[2.7.3]
+	at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies(DefaultDependencyCollector.java:292)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies(DefaultRepositorySystem.java:317)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:192)
+	... 24 more
+Caused by: org.eclipse.aether.resolution.VersionRangeResolutionException: No versions available for org.eclipse.xtext:org.eclipse.xtext.builder.standalone:jar:[2.7.3] within specified range
+	at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process(DefaultDependencyCollector.java:425)
+	at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process(DefaultDependencyCollector.java:573)
+	at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies(DefaultDependencyCollector.java:261)
+	... 26 more
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
