@@ -12,7 +12,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.inject.Module;
+
 public class HelloServlet extends HttpServlet {
+
+	private static final long serialVersionUID = 4781779936081278961L;
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
@@ -24,7 +28,7 @@ public class HelloServlet extends HttpServlet {
 			Boot.setOffline(true);
 			
 			kernel = Boot.startJanus(
-					null, // Use the default module
+					(Class<? extends Module>) null, // Use the default module
 					AgentA.class, // Type of the agent
 					"Albert"); // Parameter for Initialize event
 
